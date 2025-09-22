@@ -1,0 +1,41 @@
+# Ignore virtual environment folders
+venv/
+ENV/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & config files
+*.env
+.env.*
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Compiled / build stuff
+*.so
+*.dll
+*.dylib
+*.exe
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# macOS / Windows cruft
+.DS_Store
+Thumbs.db
